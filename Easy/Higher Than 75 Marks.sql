@@ -20,3 +20,13 @@ ID | NAME | MARKS
 2  |Atul  | 90
 4  |Rahul | 70
 3  |John  | 40
+
+---QUERY
+
+
+SELECT NAME FROM STUDENTS
+WHERE MARKS > 75
+ORDER BY RIGHT(NAME, 3), ID ASC;
+
+
+
